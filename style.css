@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+header {
+    margin: 44px 0 0 76px;
+}
+
+a {
+    margin-right: 23px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+}
+
+.button-header {
+    height: 41px;
+    width: 130px;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #FFFFFF;
+    background: #665AE1;
+    border-radius: 20.5px;
+    border: none;
+    cursor: pointer;
+}
+
+img {
+    margin: 144px 0 0 50px;
+    width: 568px;
+    height: 500px;
+    display: inline-block;
+}
+
+
+h1 {
+    width: 513px;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h3 {
+    width: 448px;
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+
+    margin: 32px 0 65px 0;
+}
+
+.button-section {
+    height: 64px;
+    width: 239px;
+    border-radius: 30px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 25));
+    background: #ADFF00;
+    border-radius: 20.5px;
+    border: none;
+    cursor: pointer;
+}
+
+.text-section {
+    display: inline-block;
+    margin: 0 0 40px 86px;
+}
+
+
+
+@media screen and (max-width: 800px) {
+
+    header {
+        display: none;
+    }
+
+    p {
+        display: none;
+    }
+
+    img {
+        display: block;
+        height: 317px;
+        width: 354px;
+        margin: 149px auto 24px;
+    }
+
+    h1 {
+        margin: 0 auto 0;
+        width: 263px;
+        font-size: 50px;
+        line-height: 61px;
+    }
+
+    h3 {
+        margin: 0 auto 0;
+        width: 232px;
+        font-size: 30px;
+        line-height: 37px;
+    }
+
+
+    .button-section {
+        margin: 17px auto 0;
+        display: block;
+    }
+
+    .text-section {
+        margin: 0 auto 30px;
+        display: block;
+    }
+}
